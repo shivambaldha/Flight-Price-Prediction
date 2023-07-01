@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Flight Fare Prediction</title>
+</head>
+<body>
+
+    <!----------------------------------------------------------------- Main Navbar ------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-teal">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+               <i class="fa fa-plane-departure"></i> Flight Fare Prediction </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#travel-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="travel-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#search" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#our model" class="nav-link">Our Model</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#new" class="nav-link">Your Route</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+    <section>
+        <div class="carousel slide" id="travel-slider" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="" class="img-fluid w-100">
+                    <div class="carousel-caption text-left animated zoomIn delay-1s">
+                        <h5 class="display-4">Flight Prices Prediction</h5>
+                        <p>BUILDING PREDICTIVE MODELS TO PREDICT FLIGHT PRICES IN INDIA</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------------------Search Section ------------------------------------------------->
+    <section id="search" class="p-3 bg-teal text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>About the Project</h1>
+                    <p>Optimal timing for airline ticket purchasing from the consumer’s perspective is challenging principally because buyers have insufficient information for reasoning about future price movements. In this project we simulate various models for computing expected future prices and classifying whether this is the best time to buy the ticket.</p>
+                    <h1 >Why We Choose?</h1>
+                    <p>Anyone who has booked a flight ticket knows how unexpectedly the prices vary. Airlines use using sophisticated quasi-academic tactics which they call "revenue management" or "yield management". The cheapest available ticket on a given flight gets more and less expensive over time. This usually happens as an attempt to maximize revenue based on</p>
+                    <p>
+                        Time of purchase patterns (making sure last-minute purchases are expensive)
+                    </p>
+                    <p>
+                        Keeping the flight as full as they want it (raising prices on a flight which is filling up in order to reduce sales and hold back inventory for those expensive last-minute expensive purchases)
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-light p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <div class="card-body">
+                            <i class="fa fa-location-arrow fa-2x text-teal"></i>
+                            <p class="h2">FLIGHT TRENDS</p>
+                            <p>Do airfares change frequently? Do they move in small increments or in large jumps? Do they tend to go up or down over time?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <div class="card-body">
+                            <i class="fa fa-building fa-2x text-teal"></i>
+                            <p class="h2">BEST TIME TO BUY</p>
+                            <p class="ntr">What is the best time to buy so that the consumer can save the most by taking the least risk?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mt-3">
+                        <div class="card-body">
+                            <i class="fa fa-plane-departure fa-2x text-teal"></i>
+                            <p class="h2">VERIFYING MYTHS</p>
+                            <p class="ntr">Does price increase as we get near to departure date? Is Indigo cheaper than Jet Airways? Are morning flights expensive?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!------------------------------------------------------------ new ---------------------------------------------------------------------->   
+    <section id ="new" class="p-2 bg-teal text-white text-center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <h1>Choose The Correct Route </h1>
+              <p>
+                The airfare varies depending on the time of departure, making timeslot used in analysis an important parameter.
+                The trend of flight prices vary over various months and across the holiday. 
+              </p>
+            </div>
+          </div>
+          <div class="platform row">
+            <div class="col-md-6 col-sm-12 text-right">
+              <div class="desktop shadow-lg">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fas fa-desktop fa-2x py-2 pr-3"></i>
+                  <a href="http://flightprice.atwebpages.com/" class="btn btn-dark">
+                  <div class="text text-left">
+                    <h3 class="pt-0 m-0">Desktop</h3>
+                    <p class="p-0 m-0">On website</p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 text-left">
+                <div class="desktop shadow-lg">
+                  <div class="d-flex flex-row justify-content-center">
+                    <i class=" fas fa-mobile-alt fa-2x py-2 pr-3"></i>
+                    <a href="http://flightprice.atwebpages.com/" class="btn btn-dark">
+                    <div class="text text-left">
+                      <h3 class="pt-0 m-0">Mobile</h3>
+                      <p class="p-0 m-0">On website</p>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------ Popular Places ---------------------------------------------------------------------->
+    <section id="places" class="p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h5 class="display-4">
+                        <span class="text-teal">Recommended Flight</span> For You
+                    </h5>
+                    <p class="lead">cheap flight booking for you.!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <img src="images/card_1.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">EaseMyTrip</h3>
+                            <p class="card-text">EaseMyTrip.com is a reliable travel agent of India, which offers great deals on air tickets.</p>
+                            <a href="https://www.easemytrip.com/flights.html">
+                            <center><button class="btn btn-teal btn-sm">Book Now</button></center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <img src="images/card_2.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Skyscanner</h3>
+                            <p class="card-text">Skyscanner.com is a reliable travel agent of India, which offers great deals on air tickets.</p>
+                            <a href="https://www.skyscanner.co.in/">
+                            <center><button class="btn btn-teal btn-sm">Book Now</button></center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <img src="images/card_3.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Yatra</h3>
+                            <p class="card-text">yatra.com is a reliable travel agent of India, which offers great deals on air tickets.</p>
+                            <a href="https://www.yatra.com/cheap-air-tickets/">
+                            <center><button class="btn btn-teal btn-sm">Book Now</button></center>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!--------------------------------------------------------------- Social Icons ---------------------------------------------------------------------------------------------------------------->
+    <section id ="our model" class="p-3 bg-teal text-white text-center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <h1>Try Our Flight Fare Predection Model </h1>
+              <p>
+                The airfare varies depending on the time of departure, making timeslot used in analysis an important parameter.
+                The trend of flight prices vary over various months and across the holiday.
+                Airfare varies according to the day of the week of travel. It is higher for weekends and Monday and slightly lower for the other days.
+              </p>
+              <div class="row mt-3">
+                <div class="col text-center">
+                    <a href="https://fli121.herokuapp.com/">
+                  <center>
+                  	 <button class="btn btn-dark btn-lg">
+                        <i class="fa fa-play mr-2"></i> Try Our Model
+                    </button>
+                  </center> 
+                    </a>
+                </div>
+            </div>
+            </div>
+          </div>
+         
+    </section>
+
+    <!-- -----------------------------------------------------------------Gallery Section -------------------------------------------------------->
+    <section id="gallery" class="p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h5 class="display-4">
+                        <span class="text-teal">Photo</span> Gallery
+                    </h5>
+                 <!----------------------------------------p section here----------------------------------->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/gallery_1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_4.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="images/gallery_5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_7.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_8.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Contact Section -->
+    <section id="contact" class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mt-3">
+                        <div class="card-header bg-teal text-white text-center">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <div class="card-body bg-light">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" name="Name" required> 
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" name="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Mobile Number" name="Mobile Number" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" placeholder="Your Description" name="Your Description" required></textarea>
+                                </div>
+                                <div>
+                                    <center><button class="btn btn-teal btn-sm" button type="submit" > Send </button></center>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Main Footer -->
+    <footer class="p-3 mt-3 bg-teal text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Copyright &copy; 2020 , Flight Fare Prediction</h3>
+                    <h6>All Rights Reserved</h6>
+                    <h6>Developed & Maintained by Shivam Baldha</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Bootstrap Js files -->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval : 3000,
+        pause : 'hover'
+    });
+    
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwe7JqgZEsqwuKvvl25gOGf5tmpK10OZ0XxdyPAQuHlt88_j5c2QhZmFw/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+
+
+
+
+</script>
+</body>
+</html>
